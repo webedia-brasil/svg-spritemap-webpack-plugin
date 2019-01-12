@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import generateSVG from '../lib/generate-svg';
 import generateStyles from '../lib/generate-styles';
-import { stripVariables, findDefaultValueMismatches } from '../lib/variable-parser';
+import { stripVariables, findDefaultValueMismatches } from '../lib/helpers/variables';
 
 describe('General', () => {
     it('Strips variables from spritemap SVG', async () => {
