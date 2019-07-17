@@ -1,5 +1,5 @@
 {
-    "name": "svg-spritemap-webpack-plugin",
+    "name": "webedia-svg-spritemap-webpack-plugin",
     "version": "3.3.7",
     "description": "Generates symbol-based SVG spritemap from all .svg files in a directory",
     "main": "lib/index.js",
